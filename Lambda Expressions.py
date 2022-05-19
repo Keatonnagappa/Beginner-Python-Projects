@@ -27,7 +27,7 @@ print(map_variable)
 for item in filter(check_even, mynum):
     print(item)
 
-# Converting the above filter function into a listed Lambda expression
+# Converting the above filter function into a listed Lambda expression 
 
 filter_variable = list(filter(lambda num: num % 2 == 0, mynum))
 
